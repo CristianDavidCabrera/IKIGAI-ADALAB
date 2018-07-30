@@ -1,6 +1,0 @@
-
-1- Usar la etiqueta <mark> dentro de varios párrafos y explicar para qué sirve y cómo funciona.
-
-    la etiqueta mark se usa para subrayar aquellas partes de texto dentro de un parrafo que nos interesan.
-
-Ejemplo: <p>Do not forget to buy <mark>milk</mark> today.</p>
