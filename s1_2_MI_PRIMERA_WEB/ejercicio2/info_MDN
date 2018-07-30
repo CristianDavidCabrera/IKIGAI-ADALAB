@@ -1,0 +1,38 @@
+#Definición de página
+
+- doctype
+- html
+- head
+- title
+- link
+- meta
+- body
+
+Seciones de página
+
+- section
+- header, main, footer, nav, aside, article
+
+Contenido
+
+- div/span
+- h1-h6
+- p
+- blockquote
+- ol/ul, li
+- img
+- a
+- strong, em
+- small, abbr, sup, sub
+- br, hr
+
+Tablas
+
+- table
+- tr
+- td, th
+- caption
+- thead
+- tbody
+- tfoot
+- col, colgroup

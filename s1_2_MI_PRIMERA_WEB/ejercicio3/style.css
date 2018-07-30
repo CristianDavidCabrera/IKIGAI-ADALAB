@@ -1,0 +1,12 @@
+.links {
+    color:red;
+} 
+/*li {
+    color:red;
+}*/
+
+/* si al <aside> con clase .links le aplicamos una regla que ponga el texto rojo, ¿qué quedará en rojo?*/
+
+/* Quedará en rojo los elementos h3 y el ul, 
+pero los li perteneciente a la ul no serán rojos porque a su vez 
+dentro de los Li hay elementos "a" (enlaces) más específicos */
