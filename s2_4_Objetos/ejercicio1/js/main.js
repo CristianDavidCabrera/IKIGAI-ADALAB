@@ -1,10 +1,10 @@
 "use strict";
 
-var adalaber = {};
+var adalaber1 = {};
 
-adalaber.name = "Susana";
-adalaber.age = 34;
-adalaber.profession = "journalist";
+adalaber1.name = "Susana";
+adalaber1.age = 34;
+adalaber1.profession = "journalist";
 
 var adalaber2 = {};
 
@@ -14,10 +14,10 @@ adalaber2.profession = "actress";
 
 alert(
   "My name is " +
-    adalaber.name +
+    adalaber1.name +
     ", I'm " +
-    adalaber.age +
+    adalaber1.age +
     " years and I'm a " +
-    adalaber.profession
+    adalaber1.profession
 );
 alert(adalaber2.name + "," + adalaber2.age + " years, " + adalaber2.profession);
