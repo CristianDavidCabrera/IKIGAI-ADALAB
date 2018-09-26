@@ -1,0 +1,24 @@
+
+
+* {
+    color:white;
+    background-color: black;
+} 
+
+ form {
+    width: auto; 
+    border: #007bff solid 5px;
+    display: flex;
+    flex-direction: inline-flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+
+form input{
+  background-color: #007bff;
+
+}
