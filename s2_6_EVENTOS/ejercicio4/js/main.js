@@ -5,13 +5,17 @@
  * Vamos a ecuchar evento de teclado (directamente sobre el elemento documento).
  * 
  */
+changeColorBg();
 
-window.addEventListener("keydown", function(event) {
- var key = this.event.key;
-    var body = document.getElementById("container"); 
-    if (key === "r") {
-      body.classList.add("red-class");
-    } else if (key === "b") {
-      body.classList.add("blue-class");
-    }
-});
+function changeColorBg(){
+  window.addEventListener("keydown", function(event) {
+    var key = this.event.key;
+       var body = document.getElementById("container"); 
+       if (key === "r") {
+         body.classList.add("red-class");
+       } else if (key === "b") {
+         body.classList.add("blue-class");
+       }
+   });
+}
+

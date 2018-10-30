@@ -4,10 +4,18 @@ function calculaBisiesto() {
   var anyoActual = document.getElementById("anyo").value;
 
   if (anyoActual % 400 == 0) {
-    alert("Es bisiesto.");
+    alert("Este año es bisiesto.");
   } else if (anyoActual % 4 == 0 && anyoActual % 100 != 0) {
-    alert("Es bisiesto.");
+    alert("Este año es bisiesto.");
   } else {
-    alert("No es bisiesto.");
+    alert("Este año no es bisiesto.");
+
+    var actualizarAnyo = anyoActual;
+    actualizarAnyo++;
+
+    while( !(actualizarAnyo % 400 == 0) && !(actualizarAnyo % 4 == 0 && actualizarAnyo % 100 != 0) ){
+      actualizarAnyo++;
+    }
+    alert("El proximo año bisiesto será el año " + actualizarAnyo);
   }
 }
