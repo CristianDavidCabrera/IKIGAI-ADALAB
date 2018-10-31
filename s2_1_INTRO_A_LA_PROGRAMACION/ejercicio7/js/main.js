@@ -4,7 +4,7 @@ var precioKiwi = 5;
 var precioPera = 2;
 var precioUva = 4;
 
-var cantidadKiwi =2;
+var cantidadKiwi = 2;
 var cantidadPera = 3;
 var cantidadUva = 0.5;
 
