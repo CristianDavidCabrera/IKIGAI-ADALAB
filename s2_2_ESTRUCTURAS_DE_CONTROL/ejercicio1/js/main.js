@@ -1,14 +1,29 @@
 "use strict";
+/**
+ *  Control de acceso.
+ */
 
-var age = prompt("Introduce tu edad.");
+var name = prompt( "Introduce tu nombre" );
+
+if (name !== "cristian"){
+    alert( "Error. Acceso denegado" );
+}else {
+    alert( "Bienvenido " + name );
+}
+/**
+ * Control de edad.
+ */
+
+var age = prompt( "¿qué edad tienes? " );
 
 if (age > 30){
-    alert('Tienes más de 30años');
+    alert( 'Tienes ' + age + ' años.' + ' Eres un/a adulto.' );
 }else if (age >= 20){
-    alert('Tienes entre 20 y 30 años ');
+    alert( 'Tienes ' + age + ' años.' + ' Eres un/a joven.' );
 }else if (age >= 10){
-    alert('Tienes entre 10 y 19 años');
+    alert( 'Tienes ' + age + ' años.' + ' Eres un/a adolescente.' );
 }else{
-    alert('Eres un niño entre 0 y 9 años');
+    alert( 'Tienes ' + age + ' años.' + ' Eres un/a niño/a.' );
 }
+
 
