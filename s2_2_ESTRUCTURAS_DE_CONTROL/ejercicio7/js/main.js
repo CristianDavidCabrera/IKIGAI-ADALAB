@@ -1,16 +1,18 @@
 "use strict";
 
 //version 1
+var alturaArbol =prompt("¿que altura deseas que tenga el árbol?");
 
+console.log("*");
 var text = ""; 
-for (var i = 0; i < 5; i++) {
+for (var i = 0; i < alturaArbol; i++) {
     for (var j = 0; j <= i; j++) {
         text +=("▲");
     }
     console.log(text);
     text="";
 }
-    
+console.log("|");
     
 //version 2 + Bonus 1 
 
