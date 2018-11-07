@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Funciones - Introducción</title>
+</head>
+
+<body>
+    <script>
+        //SINTAXIS DE UNA FUNCION
+        // function nombre_funcion (<parametros_separados_por_comas>) { ... }
+
+        //FUNCIÓN SIN PARÁMETROS
+        function saludo() {
+            alert("Hola");
+        }
+
+        //  Los paréntesis () invocan a la función.
+        //  var resultado_saludo = saludo();
+        //  alert (resultado_saludo);
+
+        //  Sin paréntesis se te puede guardar la función en una variable;
+        //  var resultado_saludo2 = saludo;
+        //  alert(resultado_saludo2);
+
+        // FUNCIÓN CON PARÁMETROS
+        function producto(a, b) {
+            return a * b;
+        }
+        var resultado_producto = producto(3, 4);
+        alert(producto(5, 6));
+
+    </script>
+</body>
+
+</html>
