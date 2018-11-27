@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <body>
+    <p id="ventana"></p>
+
+    <script>
+        /* CARACTERÍSTICAS:
+            - Representa una ventana abierta en un navegador,
+            - Si una ventana tiene etiquetas de tipo <iframe> el navegador 
+            crea un objeto window: para el html incial y un objeto para cada <iframe>.
+            - Todos los objetos, funciones, variables, son miembros del objeto window:
+                - las funciones son sus métodos. 
+                - las variables globales y el DOM son sus propiedades.
+            - No todos los métodos sirven para todos los navegadores: hay que comprobar la compatibilidad.  
+        */
+        
+        // Objetos de alto nivel (BOM) - window  
+        /******************************************************
+        * https://www.w3schools.com/jsref/obj_window.asp
+        ******************************************************/       
+
+        //PROPIEDADES BÁSICAS DE WINDOW
+
+        window.name = "Mi ventana";
+        var texto = "";
+
+        //Nombre de la ventana
+        texto += "<br/>Nombre: " + window.name;
+
+        //Tamaño Total de la ventana (incluido toolbar y scrollbar).
+        texto += "<br/>Ancho externo: " + window.outerWidth;    
+        texto += "<br/>Alto externo: " + window.outerHeight; 
+
+        //Tamaño de la ventana (sin incluir toolbar y scrollbar), lo que se ve.
+        texto += "<br/>Ancho interno: " + window.innerWidth;    
+        texto += "<br/>Alto interno: " + window.innerHeight; 
+
+        //Scroll horizontal y vertical
+        texto += "<br/>Scroll horizontal: " + window.pageXOffset;    
+        texto += "<br/>Scroll vertical: " + window.pageYOffset;         
+
+        //Distancia de la esquina superior izquierda hasta la ventana.
+        texto += "<br/>Distancia desde la izquierda: " + window.screenX;    
+        texto += "<br/>Distancia desde arriba: " + window.screenY;   
+
+        document.getElementById("ventana").innerHTML = texto;
+        
+        /* PROPIEDADES CON IFRAMES:
+            - frames: devuelve todos los elementos iframe de la ventana.
+            - frameElement: devuelve el frame en el que la ventana está insertada.
+            - length: devuelve el número de frames que tiene la venta
+        */
+        /* PROPIEDADES CON OTRAS VENTANAS:
+            - closed: devuelve un booleano si la ventana está cerrada.
+            - opener: devuelve una referencia con la venta que creó la ventana actual ("el abridor").
+            - parent: devuelve la ventana padre de la ventana actual.
+            - self: devuelve la ventana actual.
+        */
+
+        /* OTROS OBJETOS DEL NAVEGADOR 
+            El objeto window es el objeto padre por excelencia, es el padre de todos los BOM, 
+            de el cuelgan los siguientes objetos. 
+       
+            - window.document
+            - window.navigator
+            - window.screen
+            - window.history
+            - window.location    
+
+            A la hora de trabajar con estos objetos veremos que no es necesario poner:  
+                window.document.(loquesea);
+            En vez de esto pondremos:
+                document.(loquesea);  
+            En la línea 52 de este mismo archivo podemos ver un ejemplo.
+        */
+
+
+    </script>
+  </body>
+</html>
