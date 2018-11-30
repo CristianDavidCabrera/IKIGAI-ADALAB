@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Objetos - Metodos</title>
+</head>
+<body>
+    <script>
+    /*Sintaxis de creación de métodos de un objeto:
+
+        <nombre_metodo> : function(){
+            //instrucciones 
+        }
+    
+    Sintaxis de acceso a métodos de un objeto:
+        <nombre_objetos>.<nombre_metodo>(); 
+    
+    ¡OJO!
+    Hay que poner el paréntisis.    
+    - Si ponemos el parentesis al final estamos invocando el método.
+    - Si NO ponemos el parentesis lo que estamos haciendo es consultarlo. (La consola nos mostrará el código de dicho método).    
+
+    */
+
+    var persona1 = {
+        nombre:"Ada",
+        apellido:"Lovelace",
+        nombreCompleto: function(){
+           return this.nombre + " " + this.apellido;
+        }
+    }
+    alert(persona1.nombre);
+    alert(persona1.apellido);
+    alert(persona1.nombreCompleto());
+
+
+    </script>
+</body>
+</html>
