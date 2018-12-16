@@ -24,8 +24,12 @@
     <script>
         document.getElementById("tradicional").onclick = cambiar; //la función cambiar, sin paréntesis
         function cambiar(){
+            alert("Entramos en cambiar")
             document.getElementById("tradicional").innerHTML ="Modelo de registro de eventos tradicional";
+            document.getElementById("tradicional").onclick = null;
         }
     </script>
+    <!-- Inconveniente: la página debe estar completamente cargada para 
+    que se utilicen las funciones DOM que asignan manejadores a los elementos HTML-->
 </body>
 </html>
