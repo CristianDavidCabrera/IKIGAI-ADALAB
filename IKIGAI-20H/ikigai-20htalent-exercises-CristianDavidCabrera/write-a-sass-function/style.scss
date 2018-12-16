@@ -1,0 +1,12 @@
+$base-font-size: 16px;
+
+// Write your function here
+
+@function px-to-rem($target, $context) {
+    $context: $base-font-size;
+    @return ($target / $context) * 1rem;
+}
+
+h1 {
+  font-size: px-to-rem(60px, 1000px); // The statement does not tell us what is the context argument. I put 1000 px.
+}

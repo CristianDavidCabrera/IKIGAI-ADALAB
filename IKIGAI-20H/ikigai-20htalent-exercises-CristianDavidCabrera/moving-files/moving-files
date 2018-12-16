@@ -1,0 +1,15 @@
+# Moving Files
+
+# 1 - We accidentally committed a file with the wrong file name extension. 
+# Run the git command to move the "chapter3.text" file to the name "chapter3.txt".
+
+        git mv chapter3.text chapter3.txt
+
+# 2 - Run the command to display the status of the repo's files.
+
+        git status
+
+# 3 - Commit the file renaming. Use the -m flag, with any commit message you like.
+
+        git commit -m "modified .text to .txt"
+        

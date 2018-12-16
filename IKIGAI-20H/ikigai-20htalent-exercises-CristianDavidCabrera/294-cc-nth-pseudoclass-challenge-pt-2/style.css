@@ -1,0 +1,10 @@
+/* Write the CSS in the media query below */
+
+@media (min-width: 607px) {
+    img {
+        float: left;
+    }
+    img:only-child(3n+4) {
+        clear: left;
+    }
+}

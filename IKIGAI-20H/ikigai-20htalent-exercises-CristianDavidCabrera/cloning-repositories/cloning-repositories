@@ -1,0 +1,9 @@
+# Cloning Repositories
+
+# 1 - Let's try cloning a Git repository. But this time, instead of cloning a local repo, we'll clone one from the Internet.
+
+# Here's a terminal on a different computer. Run the "git clone" command.
+# Instead of a local directory name to clone from, give it a URL of "https://github.com/treehouse-courses/novel.git". 
+# By default, this will clone to a local directory named novel, but you can specify a different directory name after the URL, if you want.
+
+    git clone https://github.com/treehouse-courses/novel.git

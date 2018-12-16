@@ -1,0 +1,22 @@
+#comand line. Change to into directory novel
+
+# 1 We're working on our first novel, and we want to track our changes in Git. 
+# But first, we need to change into the directory where our text files are. 
+# Using this shell prompt, change into the novel directory.
+
+    cd novel
+
+# 2 Initialize a new Git repo here in the current directory.
+
+    git init
+
+# 3 Add the file chapter1.txt to the staging area for committing.
+
+    touch /novel/chapter1.txt
+    git add -A
+
+# 4 Finally, commit the staged file, with a message of "Add chapter 1". 
+# Rather than letting Git launch an editor, specify your commit message on the command line: 
+# use the -m command line option, and specify your message between "quotation marks".
+
+    git commit -m "Add chapter 1"

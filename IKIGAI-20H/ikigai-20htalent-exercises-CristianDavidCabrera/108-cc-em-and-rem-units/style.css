@@ -1,0 +1,21 @@
+/* Complete the challenge by writing CSS below */
+
+header {
+    font-size: 1.8em;
+}
+  
+.title {
+    font-size: 1.625em;
+}
+  
+h1 {
+    font-size: 5.625em;
+}
+  
+h2 {
+    font-size: 3.3125em;  /*53px/16px = 3.3125 */
+}
+
+h3 {
+    font-size: 1.25em;     /* 20px/16px = 1.25 */
+}

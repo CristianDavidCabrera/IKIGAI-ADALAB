@@ -1,0 +1,15 @@
+/* Complete the challenge by writing CSS below */
+
+header {
+    text-align: center;
+  }
+
+.logo {
+    width: 110px;
+    margin: auto;
+    display: block;
+}
+
+.main-nav, .main-nav line {
+    display: inline-block;
+}

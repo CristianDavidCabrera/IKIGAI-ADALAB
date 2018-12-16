@@ -1,0 +1,14 @@
+/* Complete the challenge by writing CSS below */
+
+.row {
+    display: flex;
+}
+
+.colum {
+    flex-grow: 1;
+    align-items: center;
+}
+
+.primary {
+    flex-grow: 2;
+}

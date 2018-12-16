@@ -1,0 +1,12 @@
+/* Complete the challenge by writing CSS below */
+
+.collapsed {
+	height: 0;
+    overflow: hidden;
+    transition-property: all;
+    transition-duration: 6s;
+}
+
+.expand:checked ~ .collapsed {
+	height: 34vh;
+}

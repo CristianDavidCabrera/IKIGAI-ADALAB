@@ -1,0 +1,17 @@
+/* Write the CSS in the media query below */
+
+@media (min-width: 607px) {
+    img {
+        float: left;
+    }
+    img:nth-of-type(3n+4) {
+        clear: left;
+        border-color:red;
+    }
+}
+
+/* Hey, nice job! To see which combination of images we selected,
+ give them a different border-color value –– any color you want. 
+ Don't forget to preview before you click "check work". */
+
+ /*I don't understand the statement 3/3 */

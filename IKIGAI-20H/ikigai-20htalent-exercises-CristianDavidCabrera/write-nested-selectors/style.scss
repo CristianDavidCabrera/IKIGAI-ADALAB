@@ -1,0 +1,17 @@
+.banner {
+    padding: 1em;
+    background-color: lightgrey;
+    &.button{
+        font-size: 1.5em;
+    }
+  }
+
+.icn {
+    font-size: 1.25em;
+    &-succes {
+        color:green;
+    }
+    &-warning {
+        color:red;
+    }
+}

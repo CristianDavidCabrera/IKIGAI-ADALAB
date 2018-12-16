@@ -1,0 +1,9 @@
+@mixin square ($size, $color: black) {
+    height: $size;
+    width: $size;
+    border: 1px solid $color;
+}
+
+.box {
+    @include square($color:red, $size:50px)
+}

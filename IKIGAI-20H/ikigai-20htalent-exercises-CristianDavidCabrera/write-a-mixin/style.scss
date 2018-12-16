@@ -1,0 +1,14 @@
+$btn-background: #dc143c;
+
+/* Write your SCSS code below. */
+
+@mixin button {
+   @content;
+    font-size: 1.25em;
+    background-color: $btn-background;
+}
+
+a {
+    color: #f0f8ff;
+    @include button;
+}

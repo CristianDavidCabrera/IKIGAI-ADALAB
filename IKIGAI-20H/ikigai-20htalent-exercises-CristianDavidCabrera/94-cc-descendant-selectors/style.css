@@ -1,0 +1,13 @@
+/* Complete the challenge by writing CSS below */
+
+.header span {
+    font-size: 26px;
+}
+
+.main-content p{
+    font-weight: bold;
+}
+
+.footer-main footer{
+    color: slategrey;
+}

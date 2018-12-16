@@ -1,0 +1,17 @@
+#Removing Files
+
+# 1 We've committed an appendix.txt file to the repo, 
+# but we decided we don't want it any more. 
+# Run the git command to remove the file.
+
+    git rm appendix.txt
+
+# 2 Run the command to display the status of the repo's files
+
+    git status
+
+# 3 Commit the file removal. Use the -m flag, with any commit message you like.
+    
+    git commit -m"removed appendix.txt"
+
+

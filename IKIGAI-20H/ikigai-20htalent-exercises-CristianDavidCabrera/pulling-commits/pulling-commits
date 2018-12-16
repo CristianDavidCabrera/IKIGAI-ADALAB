@@ -1,0 +1,15 @@
+# Pulling Commits
+
+# 1 - We're here in our local clone of the https://github.com/treehouse-courses/novel.git repo. 
+# Before we begin work, we want to make sure we have any changes that have been committed to the remote repo.
+
+# To ensure the remote repo is set up, run the git remote command.
+
+    git remote
+
+# 2 - The git remote command returned the following output:
+
+    # origin
+    # It looks like the remote repo is set up. Run the git command to pull changes from it.    
+
+    git pull

@@ -1,0 +1,10 @@
+/* Complete the challenge by writing CSS below   */
+
+.main-nav > li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+h2 + p { 
+    margin-top: .5em;
+}

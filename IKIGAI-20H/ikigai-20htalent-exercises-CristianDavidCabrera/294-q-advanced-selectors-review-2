@@ -1,0 +1,19 @@
+#294-q-advanced-selectors-review-2
+
+1
+:not()
+
+2
+C
+
+3
+B
+
+4
+:root, :target
+
+5
+:target
+
+6
+::first-line

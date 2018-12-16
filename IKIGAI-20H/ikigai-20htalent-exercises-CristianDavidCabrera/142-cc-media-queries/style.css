@@ -1,0 +1,17 @@
+/* Complete the challenge by writing CSS below */
+
+@media screen and (max-width: 1020px) {
+    .main-header {
+        background-color: tomato;
+        color: white;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .title {
+        font-size: 1.4rem;
+    }
+    h1{
+        font-size: 5rem;
+    }
+}

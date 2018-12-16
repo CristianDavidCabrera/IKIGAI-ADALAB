@@ -1,0 +1,17 @@
+/* Complete the challenge by writing CSS below */
+body{
+    text-align: center;
+}
+
+p{
+    color: lightslategrey;
+}
+
+header{
+    background-color: orange;
+    color: white;
+}
+
+div {
+    background-color: lightblue;
+}

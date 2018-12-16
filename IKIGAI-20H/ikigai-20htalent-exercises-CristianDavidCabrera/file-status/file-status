@@ -1,0 +1,30 @@
+#File Status
+
+# 1 We've updated one file in the repo, and created another file.
+# Run the git command that will show you the status of the repo's files.
+
+    git status
+
+# 2 Now run the git command that will show you the changes made within the files.
+# (Changes to the tracked file will be shown, but not the untracked file.)
+
+    git log -p
+
+# 3 Stage chapter1.txt.
+
+    git add <chapter1.txt>
+
+# 4 Now stage chapter2.txt.
+
+    git add <chapter2.txt>
+
+# 5 Run the "git diff" command again, but this time add the option that will show you the staged changes. 
+# (When you have the command right, changes to both the file that was previously 
+# tracked and the file that was previously untracked will be shown.)
+
+
+    git diff --staged
+
+# 6 Finally, commit all the staged files. Use the -m flag, with any commit message you like.
+
+    git commit -m" review git concepts"

@@ -1,0 +1,23 @@
+/* Complete the challenge by writing CSS below */
+
+.copyright {
+    clear: both;
+}
+
+.footer-nav {
+    float: left;
+    display: block;
+}
+footer {
+    overflow: hidden;
+}
+
+.logo {
+    float: right;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+  }

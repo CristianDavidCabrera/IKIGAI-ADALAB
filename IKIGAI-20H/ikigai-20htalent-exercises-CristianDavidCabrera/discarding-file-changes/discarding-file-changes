@@ -1,0 +1,21 @@
+# Discarding File Changes
+
+# 1 We've unstaged chapter3.txt, but the file is still modified in the working directory. 
+# Run "git status" to display its status.
+
+    git status
+
+# 2  Running git status gave the following output:
+
+    # On branch master
+    # Changes not staged for commit:
+    #  (use "git add <file>..." to update what will be committed)
+    #  (use "git checkout -- <file>..." to discard changes in working directory)
+    #
+    #        modified:   chapter3.txt
+    #
+    # no changes added to commit (use "git add" and/or "git commit -a")   
+
+# Let's run the command it suggests to discard the changes to chapter3.txt.
+
+    git checkout -- chapter3.txt

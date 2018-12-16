@@ -1,0 +1,11 @@
+/* Complete the challenge by writing CSS below */
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.column {
+    flex-basis: 300px;
+    flex-grow: 1;
+}

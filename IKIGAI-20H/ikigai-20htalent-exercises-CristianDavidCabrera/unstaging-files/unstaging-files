@@ -1,0 +1,19 @@
+#Unstaging Files
+
+# 1 - We staged a change to a file, but we've decided it wasn't a good idea. 
+# Run "git status" to display the staged file names.
+
+    git status
+
+# 2 - Running git status gave the following output:
+
+    # On branch master Changes to be committed:
+    #  (use "git reset HEAD <file>..." to unstage)
+    #
+    #        modified:   chapter3.txt
+    #
+    # Let's run the command it suggests to unstage the file.
+
+    git reset HEAD chapter3.txt
+
+

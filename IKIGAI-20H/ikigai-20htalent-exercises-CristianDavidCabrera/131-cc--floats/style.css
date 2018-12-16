@@ -1,0 +1,17 @@
+/* Complete the challenge by writing CSS below */
+
+.content-loading {
+    float: right;
+}
+
+.content-traveling{
+    float: left;
+}
+
+/* Clearfix ---------------------------------- */
+
+.group:after {
+    content: "";
+    display: table;
+    clear: both;
+  }

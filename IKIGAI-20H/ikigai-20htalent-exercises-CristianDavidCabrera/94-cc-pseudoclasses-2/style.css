@@ -1,0 +1,13 @@
+/* Complete the challenge by writing CSS below */
+
+a:link {
+    color: orange;
+}
+
+a:visited {
+    color: steelblue;
+  }
+
+  a:hover {
+    color: tomato;
+}

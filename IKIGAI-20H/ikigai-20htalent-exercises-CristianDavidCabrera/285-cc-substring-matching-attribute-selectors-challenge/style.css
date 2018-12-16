@@ -1,0 +1,13 @@
+/* Complete the challenge by writing CSS below */
+
+img[title="product-"] {
+    border: lightblue;
+}
+
+a[href$=".html"]{
+    text-decoration: none;
+}
+
+img[src="*preview"]{
+    width: 100%;
+}

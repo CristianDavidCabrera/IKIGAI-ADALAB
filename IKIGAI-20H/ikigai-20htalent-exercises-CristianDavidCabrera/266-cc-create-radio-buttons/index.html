@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>HTML Forms</title>
+</head>
+
+<body>
+  <form action="index.html" method="post">
+    <h1>Shirt Order Form</h1>
+    <label for="color">Shirt Color:</label>
+    <select id="color" name="shirt_color">
+      <option value="red">Red</option>
+      <option value="yellow">Yellow</option>
+      <option value="purple">Purple</option>
+      <option value="blue">Blue</option>
+      <option value="green">Green</option>
+      <option value="orange">Orange</option>
+    </select>
+
+    <label for="small">Small</label>
+    <input type="radio" name="shirt_size" id="small" value="small"><br>
+    
+    <label for="medium">Medium</label>
+    <input type="radio" name="shirt_size" id="medium" value="medium"><br>
+    
+    <label for="large">Large</label>
+    <input type="radio" name="shirt_size" id="large" value="large"><br>
+    
+    <label for="shirt_size">Shirt Size</label>
+
+    <button type="submit">Place Order</button>
+  </form>
+</body>
+
+</html>

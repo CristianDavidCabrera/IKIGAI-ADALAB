@@ -1,0 +1,18 @@
+.roundy {
+  width: 150px;
+  border-radius: 50%;
+}
+.img-author {
+  @extend .roundy;
+}
+
+%warning {
+  font-weight: bold;
+  color: red;
+}
+
+.message-box {
+  p {
+    @extend %warning;
+  }
+}

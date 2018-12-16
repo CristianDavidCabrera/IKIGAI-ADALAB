@@ -1,0 +1,16 @@
+# Staging Changed Files
+
+# 1 In the command line below, we're still inside the "novel" repo. 
+# We've added a dramatic plot twist to chapter1.txt. 
+# Add the modified file to the staging area for committing.
+
+ git add -A
+
+# 2 Commit the staged changes, with the message "Add plot twist". 
+# Use the -m option instead of the editor.
+
+ git commit -m"Add plot twist"
+
+ 
+
+ 

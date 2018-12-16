@@ -1,0 +1,29 @@
+# Undoing Commits
+
+# 1 - We've decided we need to get back the appendix.txt file that we deleted before. 
+# First, we need to find the commit where we removed it. 
+# Run the command that will show the log of all prior commits.
+
+    git log
+
+# 2 - Running git log gave the following output:
+
+# commit 70692324faa22f3eaeeb4d80e0958f349f4155bc
+# Author: Treehouse Student <me@example.com>
+# Date:   Fri Jan 19 13:13:30 2018 -0700
+#
+#    Fix file name
+#
+# commit 962f0e9138bab1ebb5b3e21d18a747fe18236714
+# Author: Treehouse Student <me@example.com>
+# Date:   Fri Jan 19 12:57:04 2018 -0700
+#
+#    Remove appendix
+# ... 
+
+# We want to bring appendix.txt back, which we can do by reverting the commit with the message "Remove appendix". 
+# Find the SHA checksum for that commit, and use it in the appropriate command. 
+# (This command triggers a new commit, so normally, an editor would pop up to allow you to edit that new commit's message. 
+# For this challenge, though, we just want you to run the command.)
+
+    git revert  962f
