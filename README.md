@@ -3,7 +3,7 @@ This is a description for the 20h bootcamp in Gran Canaria, in order to practice
 This project has educational purposes. It contains material owned by Abalab.
 
 ## Description
-In this project, we will learn:
+In this bootcamp, we will learn:
  - HTML and CSS (section 1)
  - JavaScript (section 2)
  - React (section 3)
